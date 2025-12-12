@@ -24,7 +24,7 @@ import json
 import time
 
 class ConfigDialog:
-    """Konfigurationsdialog für pyShippingSystem"""
+    """Konfigurationsmenü für pyShippingSystem"""
     
     def __init__(self, parent, config):
         self.result = None
