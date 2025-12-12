@@ -1,0 +1,30 @@
+{
+  "server": {
+    "port": 8888,
+    "response_delay_seconds": 0.5
+  },
+  "directories": {
+    "incoming_xml": "./incoming",
+    "outgoing_xml": "./outgoing"
+  },
+  "shipping_types": {
+    "GN01": {
+      "prefix": "PYSS",
+      "start": 10000000000,
+      "end": 19999999999,
+      "current": 10000000000
+    },
+    "SN01": {
+      "prefix": "PYSS",
+      "start": 20000000000,
+      "end": 29999999999,
+      "current": 20000000000
+    },
+    "IMP": {
+      "prefix": "PYSS",
+      "start": 30000000000,
+      "end": 39999999999,
+      "current": 30000000000
+    }
+  }
+}
